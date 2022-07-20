@@ -1,6 +1,8 @@
 /* Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Inter&family=League+Gothic&family=Montserrat:wght@400;500&family=Oswald&family=Poppins:ital,wght@0,500;1,400&family=Roboto+Slab:wght@300&display=swap");
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -148,18 +150,105 @@ button {
   margin-right: 13px;
 }
 /* Footer Section */
-footer {
-  width: 1355px;
-  height: 444px;
+.footer-section {
+  margin: 0;
+  padding: 0px;
   background-color: #161616;
-  margin-top: 130px;
 }
-footer h3 {
+.footer-section p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
   line-height: 60px;
+  text-align: center;
   color: #ffffff;
+  padding-top: 75px;
   margin-top: 130px;
+  margin-bottom: 50px;
+}
+.footer-section hr {
+  width: 1020px;
+  height: 0px;
+  margin-left: 170px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-section .social-links {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4d4d4d;
+  margin-top: 30px;
+}
+.footer-section .social-links a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 38px;
+  color: #4d4d4d;
+  border: 1px solid gray;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+.footer-section .social-links a:hover {
+  opacity: 0.9;
+}
+.footer-section ul {
+  margin: 0;
+  padding-bottom: 40px;
+  list-style: none;
+  text-align: center;
+}
+.footer-section ul li a {
+  text-decoration: none;
+  color: #4d4d4d;
+  opacity: 0.4;
+}
+.footer-section ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer-section ul li:hover {
+  opacity: 0.7;
+}
+
+/* Upcoming Match Page */
+
+.germany-france {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.upcoming-match {
+  width: 312px;
+  height: 242px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+}
+.country-flag {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.details {
+  margin-left: 30px;
+}
+.fixture {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.fixture-2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4d4d4d;
 }
