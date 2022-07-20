@@ -38,7 +38,10 @@ header {
   height: 56px;
   background-color: #dd0000;
   border-radius: 20px;
-  border: 1px solid #dd0000;
+}
+.header-button:hover {
+  background-color: #17a589;
+  padding-left: 10px;
 }
 button span {
   font-family: "Poppins";
@@ -79,10 +82,27 @@ button {
   font-size: 20px;
   line-height: 30px;
 }
+.sidebar-text a {
+  display: block;
+  width: 252px;
+  height: 64px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 30px 30px 30px 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+.sidebar-text a:hover {
+  background-color: #dd0000;
+}
 .sidebar-text {
   width: 312px;
   height: 312px;
 }
+
 .sidebar-text button:nth-child(3) {
   background-color: #dd0000;
 }
